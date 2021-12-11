@@ -1,0 +1,7 @@
+ifconfig eth0 192.168.36.63/24 up
+ifconfig eth1 192.168.56.65/24 up
+ifconfig eth2 192.168.68.68/24 up
+
+ifconfig lo 6.6.6.6/24 up
+
+/etc/init.d/quagga start
